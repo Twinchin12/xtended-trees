@@ -57,4 +57,7 @@
         <item>org.thunderdog.challegram</item>
         <item>us.zoom.videomeetings</item>
     </string-array>
+    
+    <!-- Defines custom Vendor sensor for pocket detection. -->
+    <string name="config_pocketJudgeVendorProximitySensorName">oneplus.sensor.infrared.proximity</string>
 </resources>
