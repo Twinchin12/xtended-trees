@@ -10,6 +10,7 @@
 
     <!-- Notifications are sized to match the width of two (of 4) qs tiles in landscape. -->
     <bool name="config_skinnyNotifsInLandscape">false</bool>
+
     <bool name="can_use_one_handed_bouncer">true</bool>
     
     <integer name="quick_settings_num_columns">2</integer>
