@@ -72,4 +72,9 @@
      <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
      <bool name="config_telephony5gNonStandalone">true</bool>
 
+    <!-- Parallel space blocklist -->
+    <string-array name="config_parallelSpaceBlocklist">
+        <item>com.evolution.oplus.OPlusExtras</item>
+    </string-array>
+
 </resources>
