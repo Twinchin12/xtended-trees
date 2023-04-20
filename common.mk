@@ -329,7 +329,10 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResCommon \
     OnePlusGalleryOverlay \
     OPSoundTunerOverlay \
-    WifiResTarget
+    WifiResTarget \
+    frameworks \
+    packages \
+    lineage-sdk
 
 # Oplus-fwk
 PRODUCT_PACKAGES += \
