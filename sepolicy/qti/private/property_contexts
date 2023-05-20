@@ -1,4 +1,8 @@
+# Autotest
+persist.sys.oplus.autotest.monkeyRunning    u:object_r:exported_system_prop:s0
+
 # Camera
+persist.sys.camera.lao.enable    u:object_r:exported_system_prop:s0
 NA                                     u:object_r:exported_system_prop:s0
 oplus.camera.                          u:object_r:exported_system_prop:s0
 persist.camera.                        u:object_r:exported_system_prop:s0
