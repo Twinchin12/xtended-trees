@@ -164,4 +164,6 @@
          meanings. -->
     <integer name="config_defaultRingVibrationIntensity">3</integer>
 
+    <!-- Mock Oplus LinearmotorVibratorService -->
+    <bool name="config_mockOplusLinearmotorVibratorService">true</bool>
 </resources>
