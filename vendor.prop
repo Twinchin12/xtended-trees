@@ -202,7 +202,9 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 vendor.opengles.version=196610
 
 # HWUI
-ro.hwui.render_ahead=20
+debug.egl.hw=0
+debug.sf.hw=0
+ro.hwui.render_ahead=10
 
 # Incremental FS
 ro.incremental.enable=yes
