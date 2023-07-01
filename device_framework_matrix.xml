@@ -17,6 +17,14 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.dolby.hardware.dms</name>
+        <version>2.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.hardware.dms</name>
         <transport>hwbinder</transport>
         <version>2.0</version>
         <interface>
@@ -259,14 +267,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.oplus.hardware.performance</name>
-        <version>1.0</version>
-        <interface>
-            <name>IPerformance</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.power.powermonitor</name>
         <version>1.0</version>
         <interface>
@@ -463,6 +463,47 @@
         </interface>
         <interface>
             <name>IStylusMode</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.wifi</name>
+        <version>1.6</version>
+        <interface>
+            <name>IWifi</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.wifi.hostapd</name>
+        <version>1</version>
+        <interface>
+            <name>IHostapd</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.wifi.supplicant</name>
+        <version>1</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.graphics.allocator</name>
+        <interface>
+            <name>IAllocator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+   <hal format="hidl" optional="true">
+        <name>vendor.qti.hardware.display.allocator</name>
+        <version>1.0</version>
+        <version>3.0</version>
+        <version>4.0</version>
+        <interface>
+            <name>IQtiAllocator</name>
             <instance>default</instance>
         </interface>
     </hal>
