@@ -168,6 +168,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/display/display_id_4630946950956839809.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946950956839809.xml
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
@@ -334,14 +337,7 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     OPlusExtrasResCommon \
     OPlusFrameworksResCommon \
-    OPlusSettingsResCommon \
-    OPlusSystemUIResCommon \
-    OnePlusGalleryOverlay \
-    OPSoundTunerOverlay \
-    WifiResTarget \
-    frameworks \
-    packages \
-    lineage-sdk
+    OPlusSystemUIResCommon 
 
 # Oplus-fwk
 PRODUCT_PACKAGES += \
